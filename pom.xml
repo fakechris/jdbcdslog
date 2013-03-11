@@ -56,7 +56,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <JAVA_1_5_HOME>C:\Progra~2\Java\jdk1.5.0_22</JAVA_1_5_HOME>
     </properties>
 
     <dependencies>
@@ -121,12 +120,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
+                    <source>1.6</source>
+                    <target>1.6</target>
                     <encoding>${project.build.sourceEncoding}</encoding>
                     <fork>true</fork>
-                    <executable>${JAVA_1_5_HOME}/bin/javac</executable>
-                    <compilerVersion>1.5</compilerVersion>
+                    <compilerVersion>1.6</compilerVersion>
                 </configuration>
             </plugin>
 
